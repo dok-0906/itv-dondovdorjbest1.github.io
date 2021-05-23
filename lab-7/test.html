@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<script type="text/javascript">
+        var pass = window.prompt('password оруулна уу?');
+        checkpassword(pass);
+        var strength;
+        strength=0;
+
+
+    function checkpassword(pass)
+    {
+    if (pass.match(/[a-z]+/)){
+        strength+=1;
+    }
+    if (pass.match(/[A-Z]+/)){
+        strength+=1;
+    }
+    if (pass.match(/[0-9]+/)){
+        strength+=1;
+    }
+    if (pass.match(/[$@#&!]+/)){
+        strength+=1;
+
+        }
+    if (pass.length<6){
+    display.innerHTML="minimum number of characters is 6":
+    }
+
+    if (pass.length>12){
+            display.innerHTML="maximum number of characters is 12";
+    }}
+switch(strength){
+    case 0:
+        document.writeln("<h1> 0  </h1>");
+        break;
+
+    case 1:
+        document.writeln("<h1> 1  </h1>");
+        break;
+
+    case 2:
+        document.writeln("<h1> 2  </h1>");
+        break;
+
+    case 3:
+        document.writeln("<h1> 3  </h1>");
+        break;
+
+    case 4:
+        document.writeln("<h1> 4  </h1>");
+        break; }
+
+
+
+
+</script>
+
+<body>
+
+</body>
+</html>

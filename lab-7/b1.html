@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>lab-7 javascrift</title>
+	<meta charset="utf-8">
+	<script type="text/javascript">
+		var atoo;
+		var btoo;
+		var total;
+		var itoo;
+		atoo = window.prompt('а тоог оруулна уу?');
+		btoo = window.prompt('б тоог оруулна уу?');
+		atoo=parseInt(atoo);
+		btoo=parseInt(btoo);
+		total=0;
+		while(atoo!=0){
+			total=total+atoo%10;
+			atoo/=10;
+			atoo=parseInt(atoo);
+		}
+		while(btoo!=0){
+			total=total+btoo%10;
+			btoo/=10;
+			btoo=parseInt(btoo);
+		}
+		document.writeln("<h1> цифрүүдийн нийлбэр нь: " +total+ "</h1>");
+		
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>lab 7 javascrift</title>
+	<script type="text/javascript">
+
+
+		var n = parseInt(prompt('n toog oruul: '));
+		var total=0;
+		document.writeln("<h1> n хүртэлх анхны тоонууд: </h1>");
+	for (var i = 0; i <= n; i++) {
+	    var count = 0;
+
+    for (var j = 2; j < i; j++) {
+	        if (i % j == 0) {
+	            count = 1;
+	            break;
+	        }
+	    }
+
+	    // if number greater than 1 and not divisible by other numbers
+	    if (i > 1 && count == 0) {
+	        document.writeln("<p>" +i+ "</p>");
+	        total+=i;
+	    }
+	}
+	document.writeln("<h1> анхны тоонуудын нийлбэр нь: " +total+ "</h1>");
+	</script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,106 @@
+
+body {
+	background: #4F4F56;
+	font-size: 14px;
+	line-height: 22px;
+	color: #252525;
+	
+	font-family: "Sofia", sans-serif;
+}
+
+.cv {
+	width: 800px;
+	height: auto;
+	display: flex;
+	margin: 50px auto;
+
+}
+.cv .left {
+	width: 280px;
+	height: auto;
+}
+.cv .left .profile {
+	position: absolute;
+	width: 280px;
+	height: 280px;
+	background: #E7E7E7;
+}
+.cv .left .profile img {
+	width: 190px;
+	height: 190px;
+	border-radius: 50%;
+	padding: 35px 35px;
+}
+.cv .left .content {
+	display: inline-flex;
+	background: #D5CBB1;
+	padding: 252px 0;
+}
+
+.cv .left .title {
+	width: 80px;
+	background: #252525 ;
+	padding: 0 50px;
+	color: white;
+	z-index: 2;
+}
+.cv .left ul li ul {
+	padding: 0 5px
+}
+.cv .icon {
+
+}
+.cv .data {
+	padding: 0 10px;
+}
+.cv ul li {
+	display: flex;
+	padding: 10px 0;
+}
+.cv .left  .star-lan {
+	position: absolute;
+	display: flex;
+	padding: 0 100px;
+}
+.cv .left  .star-lan .star {
+	padding: 0 5px;
+}
+
+
+
+
+
+.cv .right .title-r {
+	display: flex;
+	margin-top: 20px;
+}
+.cv .right {
+	width: 520px;
+	height: auto;
+	background: #E7E7E7;
+	padding: 0 10px;
+}
+.cv .right .info {
+	margin-top: 20px;
+	padding:0 7px;
+}
+.cv .right .data-r {
+	padding: 0 10px;
+}
+.cv  .right .info .edu-title {
+	font-size: 15px;
+}
+.cv  .right .info .edu-info {
+	display: inline-flex;
+}
+.cv  .right .info .info-skill {
+	display: flex;
+}
+.cv  .right .info .icon-info {
+	padding: 0 5px;
+}
+.cv  .right .info .icon {
+	position: absolute;
+	display: flex;
+	padding: 0 180px;
+}
